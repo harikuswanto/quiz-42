@@ -1,0 +1,19 @@
+.container {
+  @apply w-full;
+}
+
+.container > H2 {
+  @apply font-semibold text-5xl;
+}
+
+.featured {
+  @apply w-[970px] h-[564px] object-cover relative;
+}
+
+.featured > img {
+  @apply rounded-lg;
+}
+
+.more {
+  @apply px-10 py-5 border-2 border-[#FF5480] font-semibold text-2xl text-[#FF5480] rounded-full self-center;
+}

@@ -1,0 +1,14 @@
+.container {
+  @apply max-w-6xl mx-auto flex justify-between mb-36;
+}
+
+.sorter{
+    @apply flex gap-x-8
+}
+.sorter > button {
+  @apply block px-5 py-2 rounded-[10px];
+}
+
+.active {
+  @apply bg-[#FF5480] text-white;
+}

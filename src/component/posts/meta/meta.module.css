@@ -1,0 +1,7 @@
+.container{
+    @apply uppercase text-base my-5
+}
+
+.property{
+    @apply text-[#9B9B9B]
+}
